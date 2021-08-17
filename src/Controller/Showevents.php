@@ -9,13 +9,7 @@ use App\Model\ShowEventsModel;
 
 class Showevents extends Events
 {
-    public function __construct()
-    {
-        parent::__construct();
-        $config = include __DIR__ . "/../../config.php";
-        $config["table"] = $this->tableName;
-        $this->model = new ShowEventsModel($config);
-    }
+
 
     public function actionShowEdit(): void
     {
@@ -48,17 +42,7 @@ class Showevents extends Events
         $this->view->setTemplate("Showevents/show");
     }
 
-    public function actionShowNews(): void
-    {
-        $this
-            ->view
-            ->addData([
-                "new" => $this->model->getRow($_GET['id']),
-                "comments" => $this->model->getEventsComments($_GET['id']),
-                "countLike" => $this->model->countLike($_GET['id'])
-            ])
-            ->setTemplate("Showevents/new");
-    }
+
 
     public function actionAddComment(): void
     {

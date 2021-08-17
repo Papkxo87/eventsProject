@@ -5,7 +5,8 @@ use W1020\HTML\Table;
 
 echo "<table>";
 foreach ($this->data["table"] as $row) {
-    echo "<tr><td><b>$row[caption]</b></td></tr>";
+    //echo "<tr><td><b>$row[caption]</b></td></tr>";
+    echo "<tr><td><a href='?type={$this->data['controllerName']}&action=showNews&id=$row[id]'><b>$row[caption]</b><br>";
     echo "<tr><td><img class='event_image' src='public/images/event/$row[id]_$row[picture]'></td></tr>";
     echo "<tr>";
     echo "<td>" . mb_substr($row['text'], 0, 10) . "...</td>";
