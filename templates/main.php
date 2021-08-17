@@ -10,12 +10,14 @@
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/style.css">
 
+
 <body>
+
 <?php
 
 include "menu_" . ($_SESSION['user']['code'] ?? 'guest') . ".php";
 ?>
-<?= isset($_SESSION['user']['code']) ? $_SESSION['user']['name'] : "" ?>
+
 <?php
 if (!empty($_SESSION['warnings'])) {
     foreach ($_SESSION['warnings'] as $warning) {
@@ -30,6 +32,9 @@ if (!empty($_SESSION['warnings'])) {
  */
 $this->body();
 ?>
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
