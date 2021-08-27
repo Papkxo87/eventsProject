@@ -1,35 +1,10 @@
-<nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Events for you</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
-                aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExample01">
-            <ul class="navbar-nav me-auto mb-2">
-                <li class="nav-item active">
-                    <a class="nav-link<?= $this->data['controllerName'] == "Main" ? " active" : "" ?>" href="?">Home <span
-                                class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link<?= $this->data['controllerName'] == "Showevents" ? " active" : "" ?>"
-                       href="?type=Showevents&action=show">UPCOMING EVENTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?type=Aut&action=logout">Выйти (<?= isset($_SESSION['user']['code']) ? $_SESSION['user']['name'] : "" ?>)</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-                       aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2 d-none d-md-inline-block<?= $this->data['controllerName'] == "Main" ? " active" : "" ?>" href="?">Welcome!</a>
+        <a class="py-2 d-none d-md-inline-block<?= $this->data['controllerName'] == "Showevents" ? " active" : "" ?>"
+           href="?type=Showevents&action=show">UPCOMING EVENTS</a>
+        <a class="py-2 d-none d-md-inline-block" href="?type=Aut&action=logout">Выйти
+            (<?= isset($_SESSION['user']['code']) ? $_SESSION['user']['name'] : "" ?>)</a>
+    </nav>
+</header>
 
