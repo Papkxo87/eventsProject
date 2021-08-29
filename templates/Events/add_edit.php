@@ -1,7 +1,7 @@
 <?php
 //print_r($this->data);
 ?>
-
+<body class="bg-warning">
 <div class="block_events_edit">
     <form enctype="multipart/form-data" action="<?= $this->data['action'] ?>" method="post">
         <?php
@@ -20,3 +20,4 @@
         <input type="submit" value="ok" class="btn btn-primary">
     </form>
 </div>
+</body>

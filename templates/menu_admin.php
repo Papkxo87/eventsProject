@@ -12,8 +12,9 @@
            href="?type=Users&action=show">USERS</a>
         <a class="py-2 d-none d-md-inline-block<?= $this->data['controllerName'] == "UserGroups" ? " active" : "" ?>"
            href="?type=UserGroups&action=show">UserGroups</a>
-        <a class="py-2 d-none d-md-inline-block" href="?type=Aut&action=logout">ВЫЙТИ
+        <a class="py-2 d-none d-md-inline-block" href="?type=Aut&action=logout">SIGN OUT
             (<?= isset($_SESSION['user']['code']) ? $_SESSION['user']['name'] : "" ?>)</a>
+        <a class="py-2 d-none d-md-inline-block" href="">😎</a>
     </nav>
 </header>
 

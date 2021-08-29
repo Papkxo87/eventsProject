@@ -5,8 +5,8 @@
         <a class="py-2 d-none d-md-inline-block<?= $this->data['controllerName'] == "Showevents" ? " active" : "" ?>"
            href="?type=Showevents&action=show">UPCOMING EVENTS</a>
         <a class="py-2 d-none d-md-inline-block<?= $this->data['controllerName'] == "Aut" ? " active" : "" ?>"
-           href="?type=Aut&action=show">Войти</a>
+           href="?type=Aut&action=show">LOG IN</a>
         <a class="py-2 d-none d-md-inline-block<?= $this->data['controllerName'] == "Aut" ? " active" : "" ?>"
-           href="?type=Aut&action=showreg">Регистрация</a>
+           href="?type=Aut&action=showreg">SIGN IN</a>
     </nav>
 </header>
