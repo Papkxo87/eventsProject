@@ -3,8 +3,8 @@
 use W1020\HTML\Pagination;
 use W1020\HTML\Table;
 
-echo "<div class='bg-dark py-5'>";
-echo "<div class='mx-auto text-center text-white ' style='width: 700px;'>";
+echo "<body class='bg-dark'>";
+echo "<div class='mx-auto text-center text-white' style='width: 700px;'>";
 
 echo "<table>";
 foreach ($this->data["table"] as $row) {
@@ -25,6 +25,5 @@ echo (new Pagination())
     ->html();
 echo "</div>";
 echo "</div>";
-echo "</div>";
-
+echo "</body>";
 

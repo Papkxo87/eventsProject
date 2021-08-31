@@ -1,12 +1,15 @@
-<h1><?= $this->data['new']['caption'] ?></h1>
+<!--Оформляем открытое событие-->
+<body class="bg-dark">
+<div class="block_events_edit_ev">
+<h1 class="events_text_ev"><?= $this->data['new']['caption'] ?></h1>
 <img src="public/images/event/<?= $this->data['new']['id'] . '_' . $this->data['new']['picture'] ?>">
-<div><?= $this->data['new']['text'] ?></div>
-<a href="?type=showevents&action=addlike&event_id=<?= $this->data['new']['id'] ?>"">👍</a>
-<?= $this->data['countLike'] ?>
+<div class="events_text_ev"><?= $this->data['new']['text'] ?></div>
+<a class="events_text_ev" href="?type=showevents&action=addlike&event_id=<?= $this->data['new']['id'] ?>"">👍</a>
+<b class="events_text_ev"><?= $this->data['countLike'] ?></b>
 <hr>
 <?php
 foreach ($this->data['comments'] as $row) {
-    echo "<i>$row[text]</i><b>$row[name]</b><br>";
+    echo "<i class='events_text_ev'>$row[text]</i> (<b class='events_text_ev'>$row[name]</b>)<br>";
 }
 ?>
 <hr>
@@ -20,3 +23,6 @@ if (isset($_SESSION["user"]["code"]) and $_SESSION["user"]["code"] == "user" || 
     </form>
     <?php
 }
+?>
+</div>
+</body>

@@ -2,9 +2,11 @@
 
 use W1020\HTML\Pagination;
 use W1020\HTML\Table;
-echo "<div class='bg-dark py-5'>";
-echo "<div class='mx-auto text-center text-white ' style='width: 700px;'>";
+
+echo "<body class='bg-dark'>";
+echo "<div class='mx-auto text-center text-white' style='width: 700px;'>";
 echo "<table'>";
+
 foreach ($this->data["table"] as $row) {
     echo "<tr><td><a class='display-3 text-white' href='?type={$this->data['controllerName']}&action=showNews&id=$row[id]'><b>$row[caption]</b><br>";
     echo "<tr><td><img class='event_image' src='public/images/event/$row[id]_$row[picture]'></td></tr>";
@@ -29,5 +31,5 @@ echo "</div>";
 
 <?php
 echo "</div>";
-echo "</div>";
+echo "</body>";
 ?>
