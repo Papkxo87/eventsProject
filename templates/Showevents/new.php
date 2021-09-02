@@ -4,7 +4,7 @@
 <h1 class="events_text_ev"><?= $this->data['new']['caption'] ?></h1>
 <img src="public/images/event/<?= $this->data['new']['id'] . '_' . $this->data['new']['picture'] ?>">
 <div class="events_text_ev"><?= $this->data['new']['text'] ?></div>
-<a class="events_text_ev" href="?type=showevents&action=addlike&event_id=<?= $this->data['new']['id'] ?>"">👍</a>
+<a class="events_text_ev_like" href="?type=showevents&action=addlike&event_id=<?= $this->data['new']['id'] ?>"">👍🏻</a>
 <b class="events_text_ev"><?= $this->data['countLike'] ?></b>
 <hr>
 <?php
