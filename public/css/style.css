@@ -35,8 +35,9 @@
 }
 
 .homeH1 {
-    background: rgba(4, 76, 133, 0.6);
+    background: rgba(111, 160, 9, 0.6);
     padding: 2px;
+    font-size: 55px;
 }
 
 /* Padding below the footer and lighter body text */

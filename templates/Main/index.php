@@ -1,5 +1,5 @@
 <!--Оформляем первый блок домашней страницы-->
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+<div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
                 aria-label="Slide 1"></button>
@@ -15,8 +15,8 @@
             <img class="carousel-inner" src="../../public/images/form/koncert_ruki.jpg">
             <div class="container">
                 <div class="carousel-caption text-start">
-                    <h1 class="homeH1">You will always know!</h1>
-                    <p class="homeH1">We're awaiting confirmation for later in this edition!</p>
+                    <h1 class="homeH1 fst-italic">You will always know!</h1>
+                    <p class="homeH1 fst-italic">We're awaiting confirmation for later in this edition!</p>
                 </div>
             </div>
         </div>
@@ -28,15 +28,15 @@
             <img src="../../public/images/form/nicol.jpg">
 
             <div class="container">
-                <div class="carousel-caption">
-                    <h1 class="homeH1">You are in our life forever.</h1>
+                <div class="carousel-caption ">
+                    <h1 class="homeH1 align-top">You are in our life forever.</h1>
                     <p class="homeH1">Tourism and recreation, exhibitions and business meetings, seminars and
                         trainings.</p>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            <svg class="bd-placeholder-img my-3" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
                  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                 <rect width="100%" height="100%" fill="#222"/>
             </svg>
@@ -44,7 +44,7 @@
 
             <div class="container">
                 <div class="carousel-caption text-end">
-                    <h1 class="homeH1">Emotions!..</h1>
+                    <h1 class="homeH1 fst-italic">Emotions!..</h1>
                     <p class="homeH1">You'll hear new songs, meet new friends and get a portion of new emotions.</p>
                 </div>
             </div>
