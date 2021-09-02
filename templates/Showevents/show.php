@@ -12,10 +12,8 @@ foreach ($this->data["table"] as $row) {
     echo "<img class='event_image' src='public/images/event/$row[id]_$row[picture]'><br>";
     echo mb_substr($row['text'], 0, 50) . "...</a></td>";
     echo "</tr>";
-
 }
 echo "</table><br><br>";
-
 
 echo "<div class='pagination justify-content-center'>";
 echo (new Pagination())

@@ -15,8 +15,9 @@
             <img class="carousel-inner" src="../../public/images/form/koncert_ruki.jpg">
             <div class="container">
                 <div class="carousel-caption text-start">
-                    <h1 class="homeH1 fst-italic">You will always know!</h1>
-                    <p class="homeH1 fst-italic">We're awaiting confirmation for later in this edition!</p>
+                    <h1 class="homeH1 fst-italic d-inline-flex p-2 bd-highlight">You will always know!</h1>
+                    <p class="homeH1 fst-italic d-inline-flex p-2 bd-highlight">We're awaiting confirmation for later in
+                        this edition!</p>
                 </div>
             </div>
         </div>
@@ -29,8 +30,9 @@
 
             <div class="container">
                 <div class="carousel-caption ">
-                    <h1 class="homeH1 align-top">You are in our life forever.</h1>
-                    <p class="homeH1">Tourism and recreation, exhibitions and business meetings, seminars and
+                    <h1 class="homeH1 d-inline-flex p-2 bd-highlight">You are in our life forever.</h1>
+                    <p class="homeH1 d-inline-flex p-2 bd-highlight">Tourism and recreation, exhibitions and business
+                        meetings, seminars and
                         trainings.</p>
                 </div>
             </div>
@@ -44,8 +46,9 @@
 
             <div class="container">
                 <div class="carousel-caption text-end">
-                    <h1 class="homeH1 fst-italic">Emotions!..</h1>
-                    <p class="homeH1">You'll hear new songs, meet new friends and get a portion of new emotions.</p>
+                    <h1 class="homeH1 d-inline-flex p-2 bd-highlight">Emotions!..</h1>
+                    <p class="homeH1 d-inline-flex p-2 bd-highlight">You'll hear new songs, meet new friends and get a
+                        portion of new emotions.</p>
                 </div>
             </div>
         </div>
@@ -68,7 +71,7 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-dark me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-white overflow-hidden">
             <div class="my-0 py-3">
-                <h2 class="display-7">IT Events</h2>
+                <h2 class="display-7">IT Events 🖥</h2>
                 <p class="lead">Stay on top of every detail.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-100"
@@ -77,7 +80,7 @@
         </div>
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center overflow-hidden border border-dark">
             <div class="my-0 p-3">
-                <h2 class="display-7">Friends</h2>
+                <h2 class="display-7">Friends 📲</h2>
                 <p class="lead">You're going to have new friends and view life experiences.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-90"
@@ -89,7 +92,7 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-warning me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-dark overflow-hidden">
             <div class="my-0 p-3">
-                <h2 class="display-4">Sports</h2>
+                <h2 class="display-4">Sports ⛷</h2>
                 <p class="lead">The youth collection was designed mainly in the context of sports trend.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-90"
@@ -98,7 +101,7 @@
         </div>
         <div class="bg-primary me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-white overflow-hidden">
             <div class="my-0 py-3">
-                <h2 class="display-7">Business approach</h2>
+                <h2 class="display-7">Business approach ⌚</h2>
                 <p class="lead">Events like conferences, seminars, business meetings, receptions and parties can
                     be organised in different places.</p>
             </div>
@@ -111,7 +114,7 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-info me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center overflow-hidden">
             <div class="my-0 p-3">
-                <h2 class="display-7">Attractions</h2>
+                <h2 class="display-7">Attractions 🎢</h2>
                 <p class="lead text-dark">In the summer season, visit Park for its thrilling rides.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-100"
@@ -120,7 +123,7 @@
         </div>
         <div class="bg-danger me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-dark overflow-hidden">
             <div class="my-0 py-3">
-                <h2 class="display-7">Landmark event</h2>
+                <h2 class="display-7">Landmark event 💥</h2>
                 <p class="lead">They say it's to be a grand celebration...</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-100"
@@ -132,7 +135,7 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-success me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-dark overflow-hidden">
             <div class="my-0 p-3">
-                <h2 class="display-7">Party</h2>
+                <h2 class="display-7">Party 🕺🏽</h2>
                 <p class="lead text-dark">Come over to the party zone next week.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-100"
@@ -141,7 +144,7 @@
         </div>
         <div class="bg-dark me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center overflow-hidden">
             <div class="my-0 py-3">
-                <h2 class="display-7">Real emotion!</h2>
+                <h2 class="display-7">Real emotion! 😀</h2>
                 <p class="lead">If you smile, I'll be happy.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-100"
@@ -162,7 +165,7 @@
             <p class="fs-5 mb-4">We are ready to help you at any time and answer any questions.
                 We are waiting for your suggestions in all areas!</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Papkoi@mail.ru</button>
+                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href="https://www.linkedin.com/in/juri-papko">Papkoi@mail.ru</a></button>
                 <button type="button" class="btn btn-outline-light btn-lg px-4">www.facebook.com</button>
             </div>
         </div>
