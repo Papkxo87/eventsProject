@@ -67,7 +67,7 @@
 <main>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-dark me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-white overflow-hidden">
-            <div class="my-0 py-0">
+            <div class="my-0 py-3">
                 <h2 class="display-7">IT Events</h2>
                 <p class="lead">Stay on top of every detail.</p>
             </div>
@@ -76,7 +76,7 @@
                 <img src="../../public/images/form/henri.jpg"></div>
         </div>
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center overflow-hidden border border-dark">
-            <div class="my-0 p-0">
+            <div class="my-0 p-3">
                 <h2 class="display-7">Friends</h2>
                 <p class="lead">You're going to have new friends and view life experiences.</p>
             </div>
@@ -88,8 +88,8 @@
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-warning me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-dark overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-7">Sports</h2>
+            <div class="my-0 p-3">
+                <h2 class="display-4">Sports</h2>
                 <p class="lead">The youth collection was designed mainly in the context of sports trend.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto h-90"
@@ -97,7 +97,7 @@
                 <img src="../../public/images/form/pexels-jan-kopřiva.jpg"></div>
         </div>
         <div class="bg-primary me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-white overflow-hidden">
-            <div class="my-3 py-3">
+            <div class="my-0 py-3">
                 <h2 class="display-7">Business approach</h2>
                 <p class="lead">Events like conferences, seminars, business meetings, receptions and parties can
                     be organised in different places.</p>
@@ -110,7 +110,7 @@
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-info me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
+            <div class="my-0 p-3">
                 <h2 class="display-7">Attractions</h2>
                 <p class="lead text-dark">In the summer season, visit Park for its thrilling rides.</p>
             </div>
@@ -119,7 +119,7 @@
                 <img src="../../public/images/form/atrakc.jpg"></div>
         </div>
         <div class="bg-danger me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-dark overflow-hidden">
-            <div class="my-3 py-3">
+            <div class="my-0 py-3">
                 <h2 class="display-7">Landmark event</h2>
                 <p class="lead">They say it's to be a grand celebration...</p>
             </div>
@@ -131,7 +131,7 @@
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-success me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center text-dark overflow-hidden">
-            <div class="my-3 p-3">
+            <div class="my-0 p-3">
                 <h2 class="display-7">Party</h2>
                 <p class="lead text-dark">Come over to the party zone next week.</p>
             </div>
@@ -140,7 +140,7 @@
                 <img src="../../public/images/form/vecherinki.jpg"></div>
         </div>
         <div class="bg-dark me-md-3 pt-3 px-3 pt-md-0 px-md-5 text-center overflow-hidden">
-            <div class="my-3 py-3">
+            <div class="my-0 py-3">
                 <h2 class="display-7">Real emotion!</h2>
                 <p class="lead">If you smile, I'll be happy.</p>
             </div>
@@ -162,8 +162,8 @@
             <p class="fs-5 mb-4">We are ready to help you at any time and answer any questions.
                 We are waiting for your suggestions in all areas!</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-                <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Papkoi@mail.ru</button>
+                <button type="button" class="btn btn-outline-light btn-lg px-4">www.facebook.com</button>
             </div>
         </div>
     </div>
