@@ -165,8 +165,10 @@
             <p class="fs-5 mb-4">We are ready to help you at any time and answer any questions.
                 We are waiting for your suggestions in all areas!</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href="https://www.linkedin.com/in/juri-papko">Papkoi@mail.ru</a></button>
-                <button type="button" class="btn btn-outline-light btn-lg px-4">www.facebook.com</button>
+                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">
+                    <a href="https://github.com/Papkxo87/eventsProject">JURU PAPKO (Github)</a></button>
+                <button type="button" class="btn btn-outline-light btn-lg px-4">
+                    <a href="https://www.linkedin.com/in/juri-papko">JURU PAPKO (Linkedin)</a></button>
             </div>
         </div>
     </div>
@@ -178,7 +180,6 @@
 <!--Оформляем четвёртый блок домашней страницы-->
 <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2021 Training project. &middot; <a href="https://github.com/Papkxo87/eventsProject">JURU PAPKO</a>
-        &middot;
-        <a href="https://www.linkedin.com/in/juri-papko">Linkedin</a></p>
+    <p>&copy; 2021 Training project. 📧 Papkoi@mail.ru
+    </p>
 </footer>
